@@ -1,0 +1,19 @@
+{
+  "name": "encrypt-properties",
+  "version": "1.0.0",
+  "bin": {
+    "my-encrypt-properties": "/encrypt-properties.js",
+    "my-decrypt-properties": "./decrypt-properties.js",
+    "my-encrypt-properties-with-new-password": "./encrypt-properties-with-new-password.js"
+  },
+  "description": "Tools for working with encrypted properties",
+  "private": true,
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "devDependencies": {
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.4",
+    "yargs": "^16.2.0"
+  }
+}
